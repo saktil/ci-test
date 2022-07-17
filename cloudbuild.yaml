@@ -10,11 +10,15 @@ steps:
     
         yor tag -d . --output cli --output-json-file hasil.json
 
+        git config --global user.email "leosaragih001@gmail.com"
+
+        git config --global user.name "saktil"
+
         git add .
 
         git commit -m "commit coba"
 
-        gp 
+        git push --set-upstream origin master
 
         
       
