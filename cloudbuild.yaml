@@ -6,9 +6,17 @@ steps:
   - '-c'
   - |
  
-        yor tag .d . 
+        yor tag -d . --config-file tag-custom.yaml 
     
         yor tag -d . --output cli --output-json-file hasil.json
+
+        git add .
+
+        git commit -m "commit coba"
+
+        gp 
+
+        
       
      
       
