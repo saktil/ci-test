@@ -1,0 +1,14 @@
+steps:
+- id: 'tag'
+  name: 'bridgecrew/yor'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+ 
+        yor tag .d . 
+    
+        yor tag -d . --output cli --output-json-file hasil.json
+      
+     
+      
